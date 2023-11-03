@@ -1,0 +1,1584 @@
+/* all elements */
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+ul,
+ol,
+li,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+p,
+span {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/* FONTS STARTS */
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("../fonts/PlusJakartaSans-Italic.woff2") format("woff2"),
+    url("../fonts/PlusJakartaSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("../fonts/PlusJakartaSans-Regular.woff2") format("woff2"),
+    url("../fonts/PlusJakartaSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("../fonts/PlusJakartaSans-BoldItalic.woff2") format("woff2"),
+    url("../fonts/PlusJakartaSans-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("../fonts/PlusJakartaSans-Bold.woff2") format("woff2"),
+    url("../fonts/PlusJakartaSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("../fonts/PlusJakartaSans-LightItalic.woff2") format("woff2"),
+    url("../fonts/PlusJakartaSans-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("../fonts/PlusJakartaSans-Light.woff2") format("woff2"),
+    url("../fonts/PlusJakartaSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Chalkduster";
+  src: url("../fonts/Chalkduster.woff2") format("woff2"),
+    url("../fonts/Chalkduster.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* custom container */
+.custom-container {
+  padding: 0px 141px;
+}
+
+/* mission section CSS */
+
+.mission {
+  height: 100vh;
+  background-image: url(../img/home-bg.png);
+  background-position: right 119px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 47px 0px 0px;
+}
+
+.mission-head {
+  width: 100%;
+  max-width: 1198px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: auto;
+  padding-right: 120px;
+  margin-bottom: 40px;
+}
+
+.mission-head-thank {
+  width: 100%;
+  max-width: 415px;
+}
+
+.mission-head-thank h2 {
+  font-family: "Chalkduster";
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 55px;
+  letter-spacing: 0.1px;
+  color: #a7000d;
+  text-align: center;
+}
+
+.mission-head-btn a {
+  font-family: "Plus Jakarta Sans";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 21px;
+  line-height: 27px;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+  background: #a7000d;
+  padding: 37px 56px 33px;
+  display: inline-block;
+}
+
+.mission-description {
+  width: 100%;
+  max-width: 1055px;
+  padding: 138px 0px 0px 139px;
+}
+
+.mission-description h2 {
+  font-family: "Plus Jakarta Sans";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 72px;
+  letter-spacing: 0.1px;
+  color: #a7000d;
+}
+
+.mission-description h3 {
+  font-family: "Plus Jakarta Sans";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 71px;
+  letter-spacing: 0.1px;
+  color: #373737;
+}
+
+.mission-image {
+  width: 100%;
+  max-width: 666px;
+  padding-right: 139px;
+}
+
+/* footer CSS*/
+footer {
+  background: #5c000b;
+  padding: 271px 0px 94px;
+  position: relative;
+}
+
+/* dinner CSS */
+.dinner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1573px;
+  position: absolute;
+  top: -128px;
+}
+
+.dinner-thanks {
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.dinner-thanks-content {
+  background: #ffffff;
+  padding: 47px 54px 53px 44px;
+}
+
+.dinner-thanks-content h2 {
+  font-family: "Plus Jakarta Sans";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 28px;
+  letter-spacing: 0.1px;
+  color: #5c000b;
+  margin-bottom: 72px;
+}
+
+.dinner-thanks-content p {
+  font-family: "Plus Jakarta Sans";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.1px;
+  color: #373737;
+  width: 100%;
+  max-width: 408px;
+}
+
+.footer-left-content h2 {
+  font-family: "Plus Jakarta Sans";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 78px;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.footer-right-content-mail {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 790px;
+}
+
+.footer-right-content-mail h3 {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 40px;
+  letter-spacing: 0.1px;
+  color: #ededed;
+}
+
+.footer-right-content-mail a {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 40px;
+  letter-spacing: 0.1px;
+  color: #ededed;
+}
+
+.footer-right-content {
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+}
+
+.footer-right-content h2 {
+  font-family: "Chalkduster";
+  font-weight: normal;
+  font-size: 53px;
+  line-height: 53px;
+  letter-spacing: 0.1px;
+  color: #ededed;
+  text-align: center;
+}
+
+/* all media  */
+/* Medium devices (landscape tablets, and large phones 2560 and up) */
+@media only screen and (max-width: 2560px) {
+  .mission-head {
+    max-width: 1508px;
+  }
+  .mission {
+     background-position: right 24px;
+  }
+  .dinner {
+   left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* Medium devices (landscape tablets, and large phones 1920 and up) */
+@media only screen and (max-width: 1920px) {
+  .mission-head {
+    max-width: 1198px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1800px and up) */
+@media only screen and (max-width: 1800px) {
+  .mission-head-thank h2 {
+    font-size: 51px;
+    line-height: 54px;
+  }
+
+  .mission-head-btn a {
+    padding: 28px 47px 33px;
+  }
+
+  .dinner {
+    max-width: 1516px;
+    top: -93px;
+  }
+
+  .dinner-thanks-content {
+    padding: 43px 46px 53px 24px;
+  }
+
+  .mission-description h2 {
+    font-size: 56px;
+  }
+
+  .mission-description h3 {
+    font-size: 60px;
+  }
+
+  .mission-description {
+    width: 100%;
+    max-width: 916px;
+    padding: 120px 0px 0px 125px;
+  }
+
+  .footer-left-content h2 {
+    font-size: 73px;
+    margin-bottom: 24px;
+  }
+
+  .footer-right-content-mail h3 {
+    font-size: 36px;
+  }
+
+  .footer-right-content-mail a {
+    font-size: 38px;
+  }
+  .mission-head {
+    max-width: 1128px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1680px and up) */
+@media only screen and (max-width: 1680px) {
+  .mission-head-thank h2 {
+    font-size: 45px;
+    line-height: 45px;
+  }
+
+  .mission-head-btn a {
+    padding: 23px 38px 26px;
+  }
+
+  .mission-description h2 {
+    font-size: 53px;
+  }
+
+  .mission-description h3 {
+    font-size: 54px;
+  }
+
+  .mission-description {
+    max-width: 813px;
+    padding: 117px 0px 0px 112px;
+  }
+
+  .dinner-thanks {
+    width: 50%;
+  }
+
+  .dinner-thanks-content {
+    padding: 38px 15px 37px 23px;
+  }
+
+  .dinner {
+    max-width: 1459px;
+    top: -93px;
+  }
+
+  .footer-left-content h2 {
+    font-size: 65px;
+    margin-bottom: 22px;
+  }
+
+  .footer-right-content-mail h3 {
+    font-size: 32px;
+  }
+
+  .footer-right-content-mail a {
+    font-size: 32px;
+  }
+
+  .footer-right-content-mail {
+    max-width: 628px;
+  }
+
+  .footer-right-content h2 {
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.1px;
+  }
+  .mission-head {
+    max-width: 1088px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1600px and up) */
+@media only screen and (max-width: 1600px) {
+  .dinner-thanks-image {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .dinner-thanks-content {
+    padding: 34px 13px 28px 21px;
+  }
+
+  .dinner-thanks-content h2 {
+    font-size: 25px;
+    margin-bottom: 68px;
+  }
+
+  .dinner-thanks-content p {
+    font-size: 17px;
+    line-height: 25px;
+    max-width: 397px;
+  }
+
+  .dinner {
+    max-width: 1405px;
+    top: -93px;
+  }
+
+  .footer-left-content h2 {
+    font-size: 61px;
+    margin-bottom: 21px;
+  }
+  .mission-head {
+    max-width: 1039px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1500px and up) */
+@media only screen and (max-width: 1500px) {
+  .mission-head {
+    max-width: 965px;
+    padding-right: 74px;
+    margin-bottom: 38px;
+  }
+
+  .mission-head-btn a {
+    padding: 17px 32px 24px;
+  }
+
+  .mission-description h2 {
+    font-size: 45px;
+  }
+
+  .mission-description h3 {
+    font-size: 46px;
+  }
+
+  .mission-description {
+    max-width: 687px;
+    padding: 101px 0px 0px 97px;
+  }
+
+  .custom-container {
+    padding: 0px 94px;
+  }
+
+  .dinner-thanks-image {
+    max-width: 230px;
+  }
+
+  .dinner-thanks-content h2 {
+    font-size: 23px;
+    margin-bottom: 56px;
+  }
+
+  .dinner-thanks-content p {
+    font-size: 16px;
+    line-height: 25px;
+    max-width: 326px;
+  }
+
+  .dinner {
+    max-width: 1373px;
+    top: -95px;
+  }
+  .dinner-thanks {
+    justify-content: center;
+  }
+
+  .dinner-thanks-content {
+    padding: 41px 32px 28px 21px;
+  }
+
+  .footer-left-content h2 {
+    font-size: 49px;
+    margin-bottom: 19px;
+  }
+
+  .footer-right-content h2 {
+    font-size: 37px;
+    line-height: 47px;
+    letter-spacing: 0.1px;
+  }
+
+  footer {
+    padding: 239px 0px 81px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (max-width: 1440px) {
+  .dinner {
+    max-width: 1266px;
+    top: -95px;
+  }
+  .mission-head {
+    max-width: 948px;
+  }
+  .mission {
+    background-position: right 19px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1366px and up) */
+@media only screen and (max-width: 1366px) {
+  .mission-head-thank h2 {
+    font-size: 39px;
+    line-height: 44px;
+  }
+
+  .mission-head-btn a {
+    padding: 15px 24px 22px;
+  }
+
+  .mission-head {
+    max-width: 902px;
+    padding-right: 70px;
+    margin-bottom: 36px;
+  }
+
+  .mission {
+    height: 84vh;
+    padding: 34px 0px 0px;
+  }
+
+  .mission-description h2 {
+    font-size: 40px;
+  }
+
+  .mission-description h3 {
+    font-size: 39px;
+  }
+
+  .mission-description {
+    max-width: 583px;
+    padding: 97px 0px 0px 76px;
+  }
+
+  .custom-container {
+    padding: 0px 74px;
+  }
+
+  .dinner-thanks-content p {
+    font-size: 16px;
+    line-height: 25px;
+    max-width: 286px;
+  }
+
+  .dinner-thanks-content {
+    padding: 47px 33px 29px 29px;
+  }
+
+  .dinner {
+    max-width: 1187px;
+    top: -95px;
+  }
+
+  .footer-left-content h2 {
+    font-size: 40px;
+    margin-bottom: 18px;
+  }
+
+  .footer-right-content-mail h3 {
+    font-size: 30px;
+  }
+
+  .footer-right-content-mail a {
+    font-size: 30px;
+  }
+
+  .footer-right-content h2 {
+    font-size: 35px;
+    line-height: 43px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1280px and up) */
+@media only screen and (max-width: 1280px) {
+  .dinner-thanks-content p {
+    font-size: 16px;
+    line-height: 25px;
+    max-width: 247px;
+  }
+
+  .dinner {
+    max-width: 1118px;
+    top: -95px;
+  }
+
+  .footer-right-content-mail h3 {
+    font-size: 28px;
+  }
+
+  .footer-right-content-mail a {
+    font-size: 28px;
+  }
+
+  footer {
+    padding: 223px 0px 50px;
+  }
+  .mission-head {
+    max-width: 874px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1199px and up) */
+@media only screen and (max-width: 1199px) {
+  .mission-head-thank h2 {
+    font-size: 35px;
+    line-height: 41px;
+  }
+
+  .mission-head {
+    max-width: 827px;
+    padding-right: 52px;
+    margin-bottom: 33px;
+  }
+
+  .mission-description h2 {
+    font-size: 37px;
+  }
+
+  .mission-description h3 {
+    font-size: 37px;
+  }
+
+  .mission-description {
+    max-width: 545px;
+    padding: 97px 0px 0px 73px;
+  }
+
+  .dinner-thanks-image {
+    max-width: 204px;
+  }
+
+  .dinner-thanks-content {
+    padding: 34px 32px 27px 28px;
+  }
+
+  .dinner-thanks-content h2 {
+    font-size: 21px;
+    margin-bottom: 37px;
+  }
+
+  .dinner {
+    max-width: 1043px;
+    top: -95px;
+  }
+
+  .dinner-thanks-content p {
+    font-size: 16px;
+    line-height: 25px;
+    max-width: 230px;
+  }
+
+  .footer-left-content h2 {
+    font-size: 37px;
+    margin-bottom: 18px;
+  }
+
+  .footer-right-content-mail h3 {
+    font-size: 26px;
+  }
+
+  .footer-right-content-mail a {
+    font-size: 26px;
+  }
+
+  footer {
+    padding: 201px 0px 38px;
+  }
+
+  .footer-right-content {
+    max-width: 263px;
+    margin-left: auto;
+  }
+
+  .footer-right-content h2 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1152px and up) */
+@media only screen and (max-width: 1152px) {
+  .mission-head {
+    max-width: 797px;
+    padding-right: 52px;
+    margin-bottom: 33px;
+  }
+
+  .dinner {
+    max-width: 998px;
+    top: -95px;
+  }
+
+  .dinner-thanks-image {
+    max-width: 194px;
+  }
+
+  .dinner-thanks-content h2 {
+    font-size: 21px;
+    margin-bottom: 28px;
+  }
+
+  .footer-right-content-mail h3 {
+    font-size: 25px;
+  }
+
+  .footer-right-content-mail a {
+    font-size: 25px;
+  }
+
+  .footer-right-content h2 {
+    font-size: 29px;
+    line-height: 39px;
+  }
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (max-width: 1024px) {
+  .mission-head-thank h2 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  .mission-head-thank {
+    max-width: 310px;
+  }
+
+  .mission-head-btn a {
+    padding: 12px 14px 18px;
+  }
+
+  .mission-head {
+    max-width: 690px;
+    padding-right: 10px;
+    margin-bottom: 31px;
+  }
+
+  .mission-description h2 {
+    font-size: 31px;
+  }
+
+  .mission-description h3 {
+    font-size: 32px;
+  }
+
+  .mission-description {
+    max-width: 466px;
+    padding: 95px 0px 0px 50px;
+  }
+
+  .custom-container {
+    padding: 0px 58px;
+  }
+
+  .dinner-thanks-image {
+    max-width: 188px;
+  }
+
+  .dinner-thanks-content p {
+    font-size: 16px;
+    line-height: 25px;
+    max-width: 196px;
+  }
+
+  .dinner-thanks-content h2 {
+    font-size: 19px;
+    margin-bottom: 23px;
+  }
+
+  .dinner {
+    max-width: 889px;
+    top: -95px;
+  }
+
+  .dinner-thanks-content {
+    padding: 34px 22px 27px 24px;
+  }
+
+  .footer-left-content h2 {
+    font-size: 31px;
+    margin-bottom: 17px;
+  }
+
+  .footer-right-content-mail h3 {
+    font-size: 23px;
+  }
+
+  .footer-right-content-mail a {
+    font-size: 22px;
+  }
+
+  .footer-right-content h2 {
+    font-size: 26px;
+    line-height: 37px;
+  }
+
+  .footer-right-content {
+    max-width: 198px;
+    margin-left: auto;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .mission-head {
+    max-width: 659px;
+    padding-right: 28px;
+    margin-bottom: 28px;
+  }
+
+  .mission-head-thank h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .mission-head-thank {
+    max-width: 286px;
+  }
+
+  .mission-head-btn a {
+    padding: 12px 13px 18px;
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .mission-head {
+    max-width: 673px;
+    padding-right: 28px;
+    margin-bottom: 28px;
+  }
+
+  .mission-description h2 {
+    font-size: 28px;
+  }
+
+  .mission-description h3 {
+    font-size: 29px;
+  }
+
+  .mission-description {
+    max-width: 396px;
+    padding: 94px 0px 0px 46px;
+  }
+
+  .custom-container {
+    padding: 0px 46px;
+  }
+
+  .dinner-thanks-image {
+    max-width: 177px;
+  }
+
+  .dinner {
+    max-width: 866px;
+    top: -95px;
+  }
+
+  .dinner-thanks-content h2 {
+    font-size: 17px;
+    margin-bottom: 16px;
+  }
+
+  .footer-left-content h2 {
+    font-size: 27px;
+    margin-bottom: 11px;
+  }
+
+  .footer-right-content-mail h3 {
+    font-size: 21px;
+  }
+
+  .footer-right-content-mail a {
+    font-size: 21px;
+  }
+
+  .footer-right-content-mail {
+    max-width: 406px;
+  }
+
+  .footer-right-content h2 {
+    font-size: 23px;
+    line-height: 28px;
+  }
+
+  footer {
+    padding: 148px 0px 25px;
+  }
+}
+
+/* Medium devices (landscape tablets, 884px and up) */
+@media only screen and (max-width: 884px) {
+  .mission-head-thank h2 {
+    font-size: 22px;
+    line-height: 29px;
+  }
+
+  .mission-head-thank {
+    max-width: 253px;
+  }
+
+  .mission-head {
+    max-width: 583px;
+    padding-right: 12px;
+    margin-bottom: 28px;
+  }
+
+  .mission-head-btn a {
+    padding: 11px 13px 14px;
+    font-size: 17px;
+    line-height: 21px;
+  }
+
+  .mission-description h2 {
+    font-size: 26px;
+  }
+
+  .mission-description h3 {
+    font-size: 26px;
+  }
+
+  .mission-description {
+    max-width: 378px;
+    padding: 94px 0px 0px 46px;
+  }
+
+  .dinner-thanks-image {
+    max-width: 156px;
+  }
+
+  .dinner {
+    max-width: 777px;
+    top: -95px;
+  }
+
+  .dinner-thanks-content {
+    padding: 31px 18px 17px 17px;
+  }
+
+  .dinner-thanks-content p {
+    font-size: 15px;
+    line-height: 22px;
+    max-width: 182px;
+  }
+
+  .dinner-thanks-content h2 {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+
+  .footer-left-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .footer-right-content-mail h3 {
+    font-size: 18px;
+  }
+
+  .footer-right-content-mail a {
+    font-size: 19px;
+  }
+
+  .footer-right-content-mail {
+    max-width: 361px;
+  }
+
+  .footer-right-content h2 {
+    font-size: 19px;
+    line-height: 25px;
+  }
+}
+
+/* Medium devices (landscape tablets, 834px and up) */
+@media only screen and (max-width: 834px) {
+  .mission {
+    height: 91vh;
+    padding: 21px 0px 0px;
+    background-position: center 119px;
+  }
+
+  .mission-description {
+    max-width: 415px;
+    padding: 35px 0px 0px 46px;
+  }
+
+  .mission-description h2 {
+    font-size: 35px;
+  }
+
+  .mission-description h3 {
+    font-size: 27px;
+  }
+
+  .dinner-thanks-image {
+    max-width: 150px;
+  }
+
+  .dinner-thanks-content {
+    padding: 25px 16px 16px 16px;
+  }
+
+  .dinner {
+    max-width: 732px;
+    top: -95px;
+  }
+
+  .dinner-thanks-content p {
+    font-size: 15px;
+    line-height: 22px;
+    max-width: 174px;
+  }
+
+  .footer-left-content h2 {
+    font-size: 22px;
+    margin-bottom: 9px;
+  }
+
+  .footer-right-content-mail {
+    max-width: 361px;
+    display: block;
+  }
+
+  footer {
+    padding: 106px 0px 17px;
+  }
+  .mission-head {
+    max-width: 545px;
+    padding-right: 12px;
+    margin-bottom: 28px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .mission-head-thank h2 {
+    font-size: 21px;
+    line-height: 28px;
+  }
+
+  .mission-head-thank {
+    max-width: 248px;
+  }
+
+  .mission-head-btn a {
+    padding: 10px 12px 13px;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .mission-head {
+    max-width: 516px;
+    padding-right: 10px;
+    margin-bottom: 13px;
+  }
+  .mission-description {
+    max-width: 381px;
+    padding: 64px 0px 0px 31px;
+  }
+
+  .dinner-thanks-image {
+    max-width: 143px;
+  }
+
+  .dinner-thanks-content {
+    padding: 19px 14px 9px 14px;
+  }
+
+  .dinner-thanks-content h2 {
+    font-size: 15px;
+    margin-bottom: 16px;
+  }
+
+  .dinner-thanks-content p {
+    font-size: 15px;
+    line-height: 22px;
+    max-width: 160px;
+  }
+
+  .dinner {
+    max-width: 687px;
+    top: -95px;
+  }
+
+  .footer-left-content h2 {
+    font-size: 21px;
+    margin-bottom: 9px;
+  }
+
+  footer {
+    padding: 92px 0px 16px;
+  }
+
+  .custom-container {
+    padding: 0px 38px;
+  }
+
+  .footer-right-content-mail {
+    max-width: 361px;
+    display: flex;
+  }
+}
+
+/* Medium devices (landscape tablets, 767px and up) */
+@media only screen and (max-width: 767px) {
+  .mission-head-thank h2 {
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .mission-head-thank {
+    max-width: 238px;
+  }
+
+  .mission-head {
+    max-width: 515px;
+    padding-right: 9px;
+    margin-bottom: -1px;
+  }
+
+  .dinner-thanks {
+    width: unset;
+  }
+  
+  .dinner-thanks-image {
+    max-width: 120px;
+  }
+
+  .dinner-thanks-content {
+    padding: 17px 15px 8px 19px;
+  }
+
+  .dinner-thanks-content p {
+    font-size: 14px;
+    line-height: 19px;
+    max-width: 150px;
+  }
+
+  .dinner-thanks-content h2 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .dinner {
+    max-width: 620px;
+    top: -95px;
+  }
+
+  footer {
+    padding: 77px 0px 15px;
+  }
+}
+
+/* Medium devices (landscape tablets, 640px and up) */
+@media only screen and (max-width: 640px) {
+  .mission-head-thank h2 {
+    font-size: 19px;
+    line-height: 26px;
+  }
+
+  .mission-head-thank {
+    max-width: 226px;
+  }
+
+  .mission-head {
+    max-width: 433px;
+    padding-right: 9px;
+    margin-bottom: -1px;
+  }
+
+  .mission-head-btn a {
+    padding: 9px 10px 12px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .mission {
+    height: 91vh;
+    padding: 21px 0px 0px;
+    background-position: center 119px;
+  }
+
+  .mission-description h2 {
+    font-size: 22px;
+  }
+
+  .mission-description h3 {
+    font-size: 21px;
+  }
+
+  .dinner {
+    max-width: 563px;
+    top: -179px;
+    display: block;
+  }
+
+  .dinner-thanks {
+    box-shadow: unset;
+    margin-bottom: 10px;
+  }
+
+  .dinner-thanks-image {
+    max-width: 120px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+
+  .mission-description {
+    max-width: 311px;
+    padding: 57px 0px 0px 33px;
+  }
+
+  .dinner-thanks-content {
+    padding: 19px 41px 14px 26px;
+  }
+
+  .dinner-thanks-content p {
+    font-size: 14px;
+    line-height: 19px;
+    max-width: 253px;
+  }
+
+  footer {
+    padding: 106px 0px 15px;
+  }
+
+  .footer-right-content-mail h3 {
+    font-size: 17px;
+  }
+
+  .footer-right-content-mail a {
+    font-size: 18px;
+  }
+
+  .footer-right-content-mail {
+    max-width: 341px;
+    display: flex;
+  }
+}
+
+/* Medium devices (landscape tablets, and large phones 600px and up) */
+@media only screen and (max-width: 600px) {
+  .mission {
+    height: 91vh;
+    padding: 21px 0px 0px;
+    background-position: center 128px;
+  }
+  .footer-left-content h2 {
+    font-size: 19px;
+    margin-bottom: 8px;
+  }
+
+  .footer-right-content-mail h3 {
+    font-size: 17px;
+  }
+
+  .footer-right-content-mail a {
+    font-size: 17px;
+  }
+
+  .footer-right-content h2 {
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  .footer-right-content {
+    max-width: 143px;
+    margin-left: auto;
+  }
+
+  .dinner {
+    max-width: 504px;
+    top: -179px;
+    display: block;
+  }
+}
+
+/* Medium devices (landscape tablets, and large phones 576px and up) */
+@media only screen and (max-width: 576px) {
+  .mission-head-thank h2 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .mission-head-thank {
+    max-width: 213px;
+  }
+
+  .mission-head-btn a {
+    padding: 9px 9px 11px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .mission-head {
+    max-width: 390px;
+    padding-right: 8px;
+    margin-bottom: 0px;
+  }
+
+  .mission-description h2 {
+    font-size: 20px;
+  }
+
+  .mission-description h3 {
+    font-size: 20px;
+  }
+
+  .mission-description {
+    max-width: 313px;
+    padding: 57px 0px 0px 29px;
+}
+
+  .dinner {
+    max-width: 457px;
+    top: -179px;
+    display: block;
+  }
+
+  .footer-left-content h2 {
+    font-size: 18px;
+    margin-bottom: 7px;
+  }
+
+  .footer-right-content-mail h3,
+  .footer-right-content-mail a {
+    font-size: 16px;
+  }
+}
+
+/* Medium devices (landscape tablets, and large phones 575px and up) */
+@media only screen and (max-width: 575px) {
+  .mission {
+    height: 86vh;
+    padding: 21px 0px 0px;
+    background-position: center 130px;
+  }
+  .dinner {
+    max-width: 448px;
+    top: -155px;
+    display: block;
+  }
+
+  .footer-column {
+    width: 50%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 540px and up) */
+@media only screen and (max-width: 540px) {
+  .mission-head {
+    max-width: 368px;
+    padding-right: 8px;
+    margin-bottom: 0px;
+  }
+
+  .mission {
+    height: 55vh;
+    padding: 16px 0px 0px;
+    background-position: 169px 5px;
+  }
+
+  .mission-description h3 {
+    font-size: 19px;
+  }
+
+  .dinner {
+    max-width: 441px;
+    top: -177px;
+    left: 11%;
+    display: block;
+  }
+}
+
+/*  small Mobile devices( small Mobile devices, 480px and up) */
+@media only screen and (max-width: 480px) {
+  .mission-head-thank h2 {
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  .mission-head-thank {
+    max-width: 202px;
+  }
+
+  .mission-head {
+    max-width: 334px;
+    padding-right: 0px;
+    margin-bottom: 0px;
+  }
+
+  .mission {
+    height: 54vh;
+    padding: 16px 0px 0px;
+    background-position: 125px 5px;
+  }
+
+  .dinner-thanks-image {
+    max-width: 87px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+
+  .dinner-thanks-content p {
+    font-size: 14px;
+    line-height: 19px;
+    max-width: 223px;
+  }
+
+  .footer-right-content h2 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .footer-right-content {
+    max-width: 123px;
+    margin-left: auto;
+  }
+
+  .dinner-thanks-content {
+    padding: 11px 43px 4px 15px;
+  }
+
+  footer {
+    padding: 36px 0px 25px;
+  }
+
+  .custom-container {
+    padding: 0px 18px;
+  }
+
+  .dinner {
+    max-width: 420px;
+    top: 0;
+    position: relative;
+    left: 50%;
+    display: block;
+}
+  .dinner-thanks {
+    width: 100%;
+    box-shadow: unset;
+    margin-bottom: 20px;
+  }
+
+  .mission {
+    height: 62vh;
+    padding: 16px 0px 0px;
+    background-position: center 157px;
+}
+
+  .footer-right-content-mail h3,
+  .footer-right-content-mail a {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 428px) {
+  .mission {
+    height: 59vh;
+    padding: 16px 0px 0px;
+    background-position: center 170px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .dinner-thanks-image {
+    max-width: 100%;
+  }
+  
+  .dinner-thanks-content {
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .dinner-thanks-content p {
+    font-size: 14px;
+    line-height: 19px;
+    max-width: 100%;
+  }
+  
+  .mission-description {
+    max-width: 273px;
+    padding: 57px 0px 0px 18px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .mission {
+    height: 58vh;
+  }
+}
+@media only screen and (max-width: 412px) {
+  .mission {
+    height: 56vh;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .footer-column {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-right-content {
+    max-width: 50%;
+    margin: 11px auto 0;
+    text-align: center;
+  }
+  .mission {
+    height: 55vh;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .mission {
+    height: 53vh;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .mission-description h2 {
+    font-size: 19px;
+  }
+
+  .mission-description h3 {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .mission-head-thank {
+    max-width: 112px;
+  }
+  .mission {
+    height: 48vh;
+  }
+  .mission-description {
+    max-width: 223px;
+    padding: 57px 0px 0px 8px;
+  }
+  .mission-head-thank h2 {
+    font-size: 14px;
+    line-height: 23px;
+  }
+}
